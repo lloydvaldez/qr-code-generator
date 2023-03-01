@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    background: #472D2D;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 10px;
+    text-align: center;
+    margin: 50px;
+}
+
+input[type="color"] {
+    border: none;
+    width: 32.5%;
+    height: 40px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+input[type="color"]::-webkit-color-swatch {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.qr-text {
+    background: #553939;
+    color: #FFF;
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0 1rem 0;
+    padding: 1rem;
+    border: 1px solid;
+    border-radius: 5px;
+    outline: none;
+}
+
+.qr-text:focus {
+    outline-style: solid;
+
+}
+
+#qr-code {
+    background: #553939;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+    border: 2px solid;
+}
+
+#qr-code img, #qr-code canvas {
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    background: #704F4F;
+    color: #FFF;
+    display: flex;
+    max-width: 200px;
+    padding: 12px;
+    margin: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    background: #FFF;
+    color: #704F4F;
+    cursor: pointer;
+}
+
+.btn i {
+    width: 20px;
+    margin-left: 5px;
+}
+
+.action-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
